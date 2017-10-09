@@ -1,8 +1,10 @@
 # coding: utf8
-# Найти все слова которые можно составить из слова «ростелеком»
-# python match_words.py [слово] [словарь]
-# python match_words.py ростелеком sociation_org.txt
-# Доступные словари: sociation_org.txt, efremova_cleaned.txt
+"""
+Найти все слова которые можно составить из слова «ростелеком»
+python match_words.py [слово] [словарь]
+python match_words.py ростелеком sociation_org.txt
+Доступные словари: sociation_org.txt, efremova_cleaned.txt
+"""
 
 def get_dict_iterator(file_name, min_length=2):
     """
