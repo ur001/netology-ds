@@ -42,7 +42,6 @@ def get_word_matcher(word):
     return match
 
 
-
 if __name__ == "__main__":
     import sys
     word = sys.argv[1] if len(sys.argv) > 1 else 'ростелеком'
